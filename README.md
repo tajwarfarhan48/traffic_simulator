@@ -1,15 +1,12 @@
-#Traffic Simulator
+# Traffic Simulator
 This is a course project, written in C, that simulates the flow of traffic through a city. To import this project and run it, run the following lines of code in your terminal. (**Important: This project requires the gcc compiler to run**)
-
-`
 
     git clone https://github.com/tajwarfarhan48/traffic_simulator.git
     cd traffic_simulator
     make
     ./driver
-`
 
-##Project Description
+## Project Description
 The program is broken down into several components:
 - **Road Network -** Represented by a graph; the edges of the graph represent the roads, and the vertices represent the intersections between roads
 	- Each road in the network can hold a maximum number of cars
@@ -26,7 +23,7 @@ The program is broken down into several components:
 	- Printing existing road contents
 
 
-##Project Operation
+## Project Operation
 The project follows a pre-determined series of events in a loop:
 1. Execute all the events in the event queue associated with the current time step
 2. Attempt to move the cars at the front of the roads to the next road, or remove them from the event if they have reached their destination
