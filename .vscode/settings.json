@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "trafficsimulator.h": "c",
+        "queue.h": "c"
+    }
+}
